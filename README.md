@@ -1,2 +1,2 @@
 # turbodelete
-quickly delete huge Linux directory
+quickly delete a Linux directory of any size
