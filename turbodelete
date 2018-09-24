@@ -1,0 +1,36 @@
+#!/bin/bash
+
+IFS='
+'
+clear
+FULL_DIR=$PWD
+echo ""
+echo ""
+echo -e "Directory to be deleted:\e[1;31m $FULL_DIR\e[0m"
+echo ""
+read -p "Press [Enter] to continue..."
+begin=$(date +"%s")
+cd $FULL_DIR
+cd ..
+CURR_DIR=$PWD
+echo ""
+echo "Preparing..."
+mv $FULL_DIR abcdirectoryxyz
+mkdir $CURR_DIR/empty_dir
+echo ""
+echo -n -e "\e[1;31mDeleting...\e[0m"
+while :;do echo -n -e "\e[1;31m.\e[0m" ;sleep 1;done &
+trap "kill $!" EXIT
+rsync -a --delete $CURR_DIR/empty_dir abcdirectoryxyz 
+sleep 10
+echo ""
+rm -rf $CURR_DIR/empty_dir
+rm -rf $CURR_DIR/abcdirectoryxyz
+echo -e "\e[1;32mFINISHED\e[0m"
+echo ""
+termin=$(date +"%s")
+difftimelps=$(($termin-$begin))
+echo  -e "Elapsed time: \e[1;34m$(($difftimelps / 60))\e[0m minutes and \e[1;34m$(($difftimelps % 60))\e[0m seconds"
+echo ""
+spd-say 'finished'
+kill $! && trap " " EXIT
