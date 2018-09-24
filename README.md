@@ -9,12 +9,12 @@ Note: If you don't want the voice 'finished' alert, remove line 35 (spd-say -i -
 
 SPEED TEST:
 
-Computer: Asus Zenbook UX305CA laptop
-OS: Mint 19 Cinnamon
-Drive: external Seagate UltraSlim+ 2TB USB 3.0
-File system: EXT4
-Number of files: 3,480,963
-Size: 104GB
+Computer: Asus Zenbook UX305CA laptop;
+OS: Mint 19 Cinnamon;
+Drive: external Seagate UltraSlim+ 2TB USB 3.0;
+File system: EXT4;
+Number of files: 3,480,963;
+Size: 104GB;
 TIME: 25 minutes 26 seconds
 
 
