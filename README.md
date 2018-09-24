@@ -7,4 +7,4 @@ Copy turbodelete to /usr/bin and make it executable.
 
 Go to a directory to be deleted and type: sudo turbodelete
 
-Note: If you don't want the voice 'finished' alert, line 35 (spd-say 'finished').
+Note: If you don't want the voice 'finished' alert, remove line 35 (spd-say 'finished').
