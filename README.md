@@ -17,6 +17,7 @@ Number of files: 3,480,963;
 Size: 104GB;
 TIME: 25 minutes 26 seconds
 
-
+SCREENSHOT:
+![screenshot](https://user-images.githubusercontent.com/26446962/45985490-ba7de000-c023-11e8-95f5-a7547b36854d.jpg)
 
 
