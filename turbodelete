@@ -32,5 +32,4 @@ termin=$(date +"%s")
 difftimelps=$(($termin-$begin))
 echo  -e "Elapsed time: \e[1;34m$(($difftimelps / 60))\e[0m minutes and \e[1;34m$(($difftimelps % 60))\e[0m seconds"
 echo ""
-spd-say -i -80 'finished'
 kill $! && trap " " EXIT
