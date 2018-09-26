@@ -22,7 +22,7 @@ echo -n -e "\e[1;31mDeleting\e[0m"
 while :;do echo -n -e "\e[1;31m.\e[0m" ;sleep 1;done &
 trap "kill $!" EXIT
 rsync -a --delete $CURR_DIR/empty_dir abcdirectoryxyz 
-sleep 10
+sleep 2.5
 echo ""
 rm -rf $CURR_DIR/empty_dir
 rm -rf $CURR_DIR/abcdirectoryxyz
