@@ -12,11 +12,10 @@ Computer: Asus Zenbook UX305CA laptop;
 OS: Mint 19 Cinnamon;
 Drive: external Seagate UltraSlim+ 2TB USB 3.0;
 File system: EXT4;
-Number items: 3,480,963;
-Size: 104GB;
+Number items: 875,089;
+Size: 26.04GB;
 TIME: 25 minutes 26 seconds
 
-SCREENSHOT:
-![screenshot](https://user-images.githubusercontent.com/26446962/45985490-ba7de000-c023-11e8-95f5-a7547b36854d.jpg)
+SCREENSHOTS:
 
 
