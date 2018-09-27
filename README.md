@@ -17,7 +17,7 @@ Size: 26.04GB;
 TIME: 25 minutes 26 seconds
 
 SCREENSHOTS:
-![ss1](https://user-images.githubusercontent.com/26446962/46165891-019be900-c24f-11e8-8483-1b7253d2e8a3.png)
+
 ![ss2](https://user-images.githubusercontent.com/26446962/46165898-06609d00-c24f-11e8-8bca-f576c9aceff2.png)
 
 
