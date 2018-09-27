@@ -30,6 +30,8 @@ echo -e "\e[1;32mFINISHED\e[0m"
 echo ""
 termin=$(date +"%s")
 difftimelps=$(($termin-$begin))
-echo  -e "Elapsed time: \e[1;34m$(($difftimelps / 60))\e[0m minutes and \e[1;34m$(($difftimelps % 60))\e[0m seconds"
+H=$(( $difftimelps / 3600 ))
+M=$(( ( $difftimelps / 60 ) % 60 ))
+S=$(( $difftimelps % 60 ))
+echo -e "Elapsed time: \e[1;96m$H\e[0m hour(s) - \e[1;96m$M\e[0m minute(s) - \e[1;96m$S\e[0m second(s)"
 echo ""
-kill $! && trap " " EXIT
