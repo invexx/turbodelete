@@ -13,7 +13,7 @@ OS: Mint 19 Cinnamon;
 Drive: external Seagate UltraSlim+ 2TB USB 3.0;
 File system: EXT4;
 Number items: 868,089;
-Size: 26.04GB;
+Size: 26.4GB;
 <b>TIME: 6 minutes and 7 seconds</b>
 
 SCREENSHOTS:
