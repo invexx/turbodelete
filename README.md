@@ -1,5 +1,5 @@
 # turbodelete
-Quickly delete a Linux directory of any size using rsync.
+Quickly delete a directory of any size using rsync.
 
 HOW TO USE:
 
