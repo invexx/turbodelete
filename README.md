@@ -14,7 +14,7 @@ Drive: external Seagate UltraSlim+ 2TB USB 3.0;
 File system: EXT4;
 Number items: 875,089;
 Size: 26.04GB;
-TIME: 25 minutes 26 seconds
+<b>TIME: 6 minutes and 7 seconds</b>
 
 SCREENSHOTS:
 ![ss3](https://user-images.githubusercontent.com/26446962/46166183-cd74f800-c24f-11e8-9290-99a81b588664.png)
