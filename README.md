@@ -16,7 +16,9 @@ Number of items: 868,089;
 Size: 26.4GB;
 <b>TIME: 6 minutes and 7 seconds</b>
 
-NOTE: Please let me know if you know a faster method.
+NOTE: 
+
+Please let me know if you know a faster method.
 
 SCREENSHOTS:
 ![ss3](https://user-images.githubusercontent.com/26446962/46166183-cd74f800-c24f-11e8-9290-99a81b588664.png)
